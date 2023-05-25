@@ -5,9 +5,9 @@
 body {
   --main-bg: #f5f4fd;
   --item-hover: #f9f8fb;
-  --secondary-bg: #251d33;
+  --secondary-bg: #251d34;
   --main-container-bg: #fff;
-  --container-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --container-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
   --text-color: #00071d;
 }
 body.dark {
@@ -27,7 +27,7 @@ html, body {
 }
 body {
   background-color: var(--main-bg);
-  transition: 0.3s ease-in-out;
+  transition: 0.5s ease-in-out;
   display: flex;
   justify-content: center;
   align-items: center;
